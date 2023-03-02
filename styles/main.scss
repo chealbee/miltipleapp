@@ -1,0 +1,36 @@
+.mainPage {
+  color: white;
+  max-width: 1200px;
+  padding: 10px 10px;
+  &__heading {
+    text-align: center;
+    font-size: 90px;
+    font-weight: 700;
+    margin-bottom: 50px;
+  }
+  &__paragraph {
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  a {
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    color: black;
+    font-size: 30px;
+
+    transition: all 0.3s ease 0s;
+    &:hover {
+      color: rgb(255, 255, 255);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      background: #ff8ed2;
+    }
+  }
+}

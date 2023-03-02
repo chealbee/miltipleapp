@@ -1,0 +1,32 @@
+.list {
+  background: #ffffff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 30px;
+}
+.list__item {
+  font-size: 20px;
+  margin-right: 20px;
+  font-weight: 700;
+  text-transform: capitalize;
+  a {
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    font-family: inherit;
+    &:hover {
+      color: #ff8ed2;
+    }
+    &.activelink {
+      color: #ff8ed2;
+    }
+  }
+}
+.header {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 10;
+}
